@@ -8,6 +8,8 @@
 2. [事前学習](./GPT/pre-training.ipynb)
 3. [ファインチューニング](./GPT/fine-tuning.ipynb)
 
+![](https://miro.medium.com/v2/resize:fit:1400/1*TzGwyi1TrqcIPV4WMU3sVg.png)
+
 # Quick Start
 ```
 git clone https://github.com/prnszz/techblog.git
