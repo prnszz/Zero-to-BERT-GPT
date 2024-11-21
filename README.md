@@ -10,7 +10,7 @@
 
 # Quick Start
 ```
-git clone 
+git clone https://github.com/prnszz/techblog.git
 conda create -n "bert_gpt_test" python = 3.12
 conda activate bert_gpt_test
 pip install -r requirements.txt
