@@ -1,3 +1,8 @@
+[🇯🇵日本語版](./README_JP.md)
+--   
+
+![](https://miro.medium.com/v2/resize:fit:1400/1*TzGwyi1TrqcIPV4WMU3sVg.png)
+
 # [BERT](./BERT/)
 1. [Overview](./BERT/overview.ipynb)
 2. [Pre-training](./BERT/pre-training.ipynb)
@@ -8,7 +13,7 @@
 2. [Pre-training](./GPT/pre-training.ipynb)
 3. [Fine-tuning](./GPT/fine-tuning.ipynb)
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*TzGwyi1TrqcIPV4WMU3sVg.png)
+
 
 # Quick Start
 ```
@@ -18,4 +23,3 @@ conda activate bert_gpt_test
 pip install -r requirements.txt
 ```
 
-[日本語版](./README_JP.md)
