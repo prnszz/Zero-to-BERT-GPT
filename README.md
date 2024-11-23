@@ -8,6 +8,7 @@
 1. [Overview](./BERT/overview.ipynb)
 2. [Pre-training](./BERT/pre-training.ipynb)
 3. [Fine-tuning](./BERT/fine-tuning.ipynb)
+4. [Visualization-BertViz](https://github.com/jessevig/bertviz) 
 
 # [GPT](./GPT/)
 1. [Overview](./GPT/overview.ipynb)

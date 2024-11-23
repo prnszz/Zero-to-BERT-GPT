@@ -4,6 +4,7 @@ $$自然言語 → BERT → 高次元ベクトル$$
 1. [概要](./BERT/overview.ipynb)
 2. [事前学習](./BERT/pre-training.ipynb)
 3. [ファインチューニング](./BERT/fine-tuning.ipynb)
+4. [可視化-BertViz](https://github.com/jessevig/bertviz)
 
 # [GPT](./GPT-jp/)
 $$二進数のコード → デコーダ → 自然言語 $$ 
