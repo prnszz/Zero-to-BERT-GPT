@@ -6,12 +6,12 @@ $$自然言語 → BERT → 高次元ベクトル$$
 3. [ファインチューニング](./BERT/fine-tuning.ipynb)
 4. [可視化-BertViz](https://github.com/jessevig/bertviz)
 
-# [GPT](./GPT-jp/)
+# [Llama](./Llama-jp/)
 $$二進数のコード → デコーダ → 自然言語 $$ 
 $$高次元ベクトル(Embedされたprompt) → GPT → 自然言語$$
-1. [概要](./GPT/overview.ipynb)
-2. [事前学習](./GPT/pre-training.ipynb)
-3. [ファインチューニング](./GPT/fine-tuning.ipynb)
+1. [概要](./Llama-jp/overview.ipynb)
+2. [事前学習](./Llama-jp/pre-training.ipynb)
+3. [ファインチューニング](./Llama-jp/fine-tuning.ipynb)
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*TzGwyi1TrqcIPV4WMU3sVg.png)
 

@@ -10,10 +10,10 @@
 3. [Fine-tuning](./BERT/fine-tuning.ipynb)
 4. [Visualization-BertViz](https://github.com/jessevig/bertviz) 
 
-# [GPT](./GPT/)
-1. [Overview](./GPT/overview.ipynb)
-2. [Pre-training](./GPT/pre-training.ipynb)
-3. [Fine-tuning](./GPT/fine-tuning.ipynb)
+# [Llama](./Llama/)
+1. [Overview](./Llama/overview.ipynb)
+2. [Pre-training](./Llama/pre-training.ipynb)
+3. [Fine-tuning](./Llama/fine-tuning.ipynb)
 
 
 
