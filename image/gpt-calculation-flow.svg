@@ -1,0 +1,54 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="300" fill="#f8f9fa"/>
+    
+    <!-- Initial embedding H0 -->
+    <g transform="translate(50,80)">
+        <rect width="120" height="120" fill="#e3f2fd" stroke="#1976d2"/>
+        <text x="60" y="60" text-anchor="middle">H⁽⁰⁾</text>
+        <text x="60" y="80" text-anchor="middle" font-size="12">WX + P</text>
+        <text x="60" y="100" text-anchor="middle" font-size="12">(d×k)</text>
+    </g>
+
+    <!-- Transformer blocks -->
+    <g transform="translate(240,80)">
+        <rect width="300" height="120" fill="#fff" stroke="#495057"/>
+        <text x="150" y="40" text-anchor="middle">Transformer Blocks</text>
+        <text x="150" y="70" text-anchor="middle" font-size="12">H⁽ˡ⁾ = transformer_block(H⁽ˡ⁻¹⁾)</text>
+        <text x="150" y="90" text-anchor="middle" font-size="12">l ∈ {1,...,L}</text>
+    </g>
+
+    <!-- Final embedding -->
+    <g transform="translate(610,80)">
+        <rect width="120" height="120" fill="#e8f5e9" stroke="#388e3c"/>
+        <text x="60" y="60" text-anchor="middle">H_k⁽ᴸ⁾</text>
+        <text x="60" y="100" text-anchor="middle" font-size="12">(d×k)</text>
+    </g>
+
+    <!-- Output probability -->
+    <g transform="translate(610,240)">
+        <rect width="120" height="40" fill="#fff8e1" stroke="#ffa000"/>
+        <text x="60" y="25" text-anchor="middle" font-size="12">P(x_i|context)</text>
+    </g>
+
+    <!-- Arrows -->
+    <g stroke="#666" stroke-width="2" marker-end="url(#arrow)">
+        <!-- H0 to Transformer -->
+        <path d="M 170,140 L 240,140"/>
+        <!-- Transformer to final embedding -->
+        <path d="M 540,140 L 610,140"/>
+        <!-- Final embedding to probability -->
+        <path d="M 670,200 L 670,240"/>
+    </g>
+
+    <!-- Arrow marker definition -->
+    <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/>
+        </marker>
+    </defs>
+
+    <!-- Softmax annotation -->
+    <text x="700" y="220" text-anchor="middle" font-size="12">softmax_x_i(W^T H_k^(L))</text>
+</svg>
